@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { MDBBtn } from 'mdb-react-ui-kit';
+
 
 export default class Counter extends Component {
 
@@ -18,7 +20,9 @@ export default class Counter extends Component {
     return (
       <div>
         <h2>Counter: {this.state.counter}</h2>
-        <button onClick={this.add1}>+</button>
+        <MDBBtn onClick={this.add1} rounded className='mx-2' color='secondary'>
+        +
+      </MDBBtn>
       </div>
     )
   }

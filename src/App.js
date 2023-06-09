@@ -7,8 +7,7 @@ import Hw from './hw/comps/appHw';
 
 function App() {
   return (
-    <React.Fragment>
-      
+    <React.Fragment>   
       <Hw></Hw>
     </React.Fragment> 
   );

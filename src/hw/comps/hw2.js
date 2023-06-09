@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { MDBBtn } from 'mdb-react-ui-kit';
+
 
 export default class ImgArr extends Component {
 
@@ -25,9 +27,11 @@ export default class ImgArr extends Component {
         return (
             <div>
                 <h2>my veiw:</h2>
-                <img height="100px" src={this.images[this.state.counter]}/>
-                <hr></hr>
-                <button onClick={this.add1}>+</button>
+                <img height="100px" src={this.images[this.state.counter]} />
+                {/* <hr></hr> */}
+                <MDBBtn onClick={this.add1} rounded className='mx-2' color='secondary'>
+                    next
+                </MDBBtn>
             </div>
         )
     }

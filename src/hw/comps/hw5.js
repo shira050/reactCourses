@@ -1,13 +1,14 @@
 
 import React, { Component } from 'react'
 import { MDBInput } from 'mdb-react-ui-kit';
+import { MDBBtn } from 'mdb-react-ui-kit';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'; // Import MDBReactUIKit CSS
 
 
 
 export default class CoinsCalc extends Component {
 
-    state = { coins_val: 1, sum: 0 ,sum_end:0};
+    state = { coins_val: 1, sum: 0, sum_end: 0 };
 
 
     selectRef = React.createRef();
@@ -32,20 +33,23 @@ export default class CoinsCalc extends Component {
             <div>
                 <h2>my calculatore:</h2>
                 <div >
-                {/* <h2 >Enterthe amount you have:</h2>
-                    <input type='text' ref={this.inputRef}></input> */}
-                    <MDBInput ref={this.inputRef} label='Enterthe amount you have:'  type='text' />
-                    <h2 >Enter your coins type:</h2>
-                    <select  ref={this.selectRef}>
+                    <MDBInput ref={this.inputRef} label='Enterthe amount you have:' type='text' />
+                  
+                 
+                    <p >Enter your coins type:</p>
+                    <select ref={this.selectRef}>
                         <option>choose an option</option>
                         <option value={3.5}>$</option>
                         <option value={1}>ILS</option>
                         <option value={2.2}>URE</option>
                         <option value={0.1}>bat </option>
                     </select>
-                    <hr></hr>
-                    <button onClick={this.changeCoin}>EXCHANGE</button>
-                    <h2>{this.state.sum_end} ILS</h2>
+                  
+                    <br></br>
+                    <MDBBtn onClick={this.changeCoin} rounded className='mx-2' color='secondary'>
+                        EXCHANGE
+                    </MDBBtn>
+                    <p>{this.state.sum_end} ILS</p>
                 </div >
             </div>
         )

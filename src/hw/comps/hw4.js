@@ -31,7 +31,7 @@ export default class MoviesArr extends Component {
 
                 <div >
                 <h2  >Enter your favorite cake:</h2>
-                <select onChange={this.changeImg} ref={this.selectRef}>
+                <select onChange={this.changeImg} ref={this.selectRef} className="browser-default custom-select">
                     <option>choose an option</option>
                     <option value={0}>עוגת שכבות</option>
                     <option value={1}>עוגה וורודה</option>
