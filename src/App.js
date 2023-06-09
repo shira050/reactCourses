@@ -7,8 +7,10 @@ import Hw from './hw/comps/appHw';
 
 function App() {
   return (
-    <React.Fragment>   
+    <React.Fragment>  
+      {/* השב של שיעור 41  */}
       <Hw></Hw>
+      
     </React.Fragment> 
   );
 }
