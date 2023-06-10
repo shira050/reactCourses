@@ -5,6 +5,9 @@
 
 <img src="[[/path/to/img.jpg](https://i.ibb.co/18PmfvC/img2.png)" alt="Alt text" title="Optional title">
 
+![screen shot](https://github.com/[shira050]/[0504173725]/blob/[main]/https://i.ibb.co/vHmj9k6/img1.png?raw=true)
+
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
