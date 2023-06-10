@@ -1,4 +1,10 @@
 # Getting Started with Create React App
+![Alt text]([/posts/path/to/img.jpg](https://i.ibb.co/vHmj9k6/img1.png) "Optional title")
+
+![Alt text](https://i.ibb.co/18PmfvC/img2.png "Optional title")
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
