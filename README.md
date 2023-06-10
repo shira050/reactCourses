@@ -1,7 +1,7 @@
 # Getting Started with Create React App
-<img src="https://i.ibb.co/18PmfvC/img1.png" width="100%"/>
+<img src="https://i.ibb.co/18PmfvC/img1.png" width="80%"/>
 
-<img src="https://i.ibb.co/18PmfvC/img2.png" width="100%"/>
+<img src="https://i.ibb.co/18PmfvC/img2.png" width="80%"/>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
