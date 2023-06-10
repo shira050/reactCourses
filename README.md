@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+<img src="https://i.ibb.co/18PmfvC/img1.png" width="128"/>
 
 
 <img src="[/path/to/img.jpg](https://i.ibb.co/18PmfvC/img1.png)" alt="Alt text" title="Optional title">
