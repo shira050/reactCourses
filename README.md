@@ -1,8 +1,9 @@
 # Getting Started with Create React App
-![Alt text]([/posts/path/to/img.jpg](https://i.ibb.co/vHmj9k6/img1.png) "Optional title")
 
-![Alt text](https://i.ibb.co/18PmfvC/img2.png "Optional title")
 
+<img src="[/path/to/img.jpg](https://i.ibb.co/18PmfvC/img1.png)" alt="Alt text" title="Optional title">
+
+<img src="[[/path/to/img.jpg](https://i.ibb.co/18PmfvC/img2.png)" alt="Alt text" title="Optional title">
 
 
 
@@ -76,8 +77,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-<img src="[/path/to/img.jpg](https://i.ibb.co/18PmfvC/img2.png)" alt="Alt text" title="Optional title">
-
-<img src="[[/path/to/img.jpg](https://i.ibb.co/18PmfvC/img2.png)](https://i.ibb.co/vHmj9k6/img1.png)" alt="Alt text" title="Optional title">
 
 
