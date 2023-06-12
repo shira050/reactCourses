@@ -1,5 +1,4 @@
 import React, { useRef, useState } from 'react'
-import { MDBBtn } from 'mdb-react-ui-kit';
 
 
 
@@ -13,19 +12,18 @@ const SelectColor = () => {
   return (
     <div>
       
-       <MDBBtn  rounded className='mx-2' color='danger'>
-                        red
-                    </MDBBtn> 
-        <h2 style={{color:color}}>Hello <span>{color!= "black"&&color}</span> </h2>
+      
+        <h2 style={{color:color}}>Hello <span>{(color!= "black"&&color!="choose a color")&&color}</span> </h2>
         <select 
         class="browser-default custom-select"
         ref={selectRef} onChange={() => {
           setColor(selectRef.current.value)
         }}>
-            <option >red</option>
-            <option>green</option>
-            <option>blue</option>
-            <option>orange</option>
+            <option >choose a color</option>
+            <option color='danger' >red</option>
+            <option color='success'>green</option>
+            <option color='info'>blue</option>
+            <option color='orange'>orange</option>
            
             {/* כשאין 
             vlue 

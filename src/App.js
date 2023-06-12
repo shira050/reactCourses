@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import SelectColor from './classTasks/apiComps/selectColor';
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+
 
 function App() {
   return (
