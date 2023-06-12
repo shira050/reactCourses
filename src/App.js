@@ -5,7 +5,11 @@ import SelectColor from './classTasks/apiComps/selectColor';
 function App() {
   return (
    <>
-   <SelectColor></SelectColor>
+       <div className='container my-5 p-5' style={{background:"#f1f1f1"}}>
+
+      <SelectColor></SelectColor>
+      </div>
+      
    </>
   );
 }
