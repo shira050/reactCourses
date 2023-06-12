@@ -2,6 +2,9 @@
 MY TASK:
 <img src="https://i.ibb.co/4ZVZYjT/image-5.png" width="80%"/>
 
+<img src="https://i.ibb.co/jHMjHMC/image-6.png" width="80%"/>
+
+
 
 # Getting Started with Create React App
 
