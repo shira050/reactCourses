@@ -1,3 +1,8 @@
+
+MY TASK:
+<img src="https://i.ibb.co/4ZVZYjT/image-5.png" width="80%"/>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
